@@ -1,0 +1,148 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap'); */
+
+@font-face {
+    font-family: 'netflix_sansregular';
+    src: url('./NetflixSans-Medium.otf') format('woff'),
+         url('./NetflixSans-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: netflix_sansregular, Arial, Helvetica, sans-serif;
+}
+
+/* option {
+    font-family: 'FontAwesome', 'Marten Sans'
+  } */
+
+.bkgrd{
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/32935458-d049-44c2-b94b-32f16d60ded1/IN-en-20230227-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+
+.netflix-logo{
+    width: 180px;
+    height: 75px;
+    margin-left: 30px;
+}
+
+.icon{
+    color: white;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.tag-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 200px;
+    color: white;
+    line-height: 47px;
+}
+
+.tag-subtitle{
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.addemail{
+    margin-bottom: 100px;
+}
+
+.email-form{
+    /* font-size: 1.4rem;
+    font-weight: 400; */
+    line-height: normal;
+}
+
+.hline{
+    height: 10px;
+    color: gray;
+    opacity: 1;
+    margin: 0;
+    background-color: gray;
+    width: 100%;
+}
+
+.parent-element{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    padding-bottom: 70px;
+    /* border-bottom-width: 1rem; */
+    /* padding-top: 30px; */
+}
+
+.bborder{
+    border-bottom: solid thick gray;
+}
+
+.child1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 75px;
+}
+
+.child2{
+    display: flex;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.child2 > img{
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.faqs > span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.faqs > article{
+    font-size: 1.3rem;
+}
+
+.faqbtn{
+    font-size: 1.3rem;
+}
+
+.faque{
+    display: flex;
+    width: 810px;
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fans{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.acchline{
+    /* height: 1px; */
+    opacity: 1;
+    color: black;
+    width: 100%;
+}
+
+.add-account{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.footfsize{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+}
